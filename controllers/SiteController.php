@@ -125,8 +125,15 @@ class SiteController extends Controller
     {
         return $this->render('about');
     }
+
     public function actionAbc()
     {
         echo "ABCDEFG";
     }
+
+    public function actionTest()
+    {
+        echo "hello";
+    }
 }
+
