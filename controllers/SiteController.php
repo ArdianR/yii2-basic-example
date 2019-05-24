@@ -126,9 +126,13 @@ class SiteController extends Controller
         return $this->render('about');
     }
 
+    public function actionA()
+    {
+        echo "ABCDEFG";
+    }
+
     public function actionTest()
     {
-
         echo "hello";
     }
 }
