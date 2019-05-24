@@ -10,13 +10,13 @@ use yii\filters\VerbFilter;
 use app\models\LoginForm;
 use app\models\ContactForm;
 
-class Joy1Controller extends Controller
+class Joy2Controller extends Controller
 {
     /**
      * {@inheritdoc}
      */
    
-    public function actionTest1()
+    public function actionTest2()
     {
 
         echo "hello 2";
