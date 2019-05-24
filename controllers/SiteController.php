@@ -125,7 +125,7 @@ class SiteController extends Controller
     {
         return $this->render('about');
     }
-    public function actionAb()
+    public function actionAbc()
     {
         echo "ABCDEFG";
     }
